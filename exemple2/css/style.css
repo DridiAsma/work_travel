@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;700&display=swap');
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.header-section .top-nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-between;
+    border-bottom: #100f0f;
+    background-color:  #f5f7f6;
+   
+
+}
+
+.header-section .top-nav .col-lg-5 .icons-left {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section .top-nav .col-lg-5 .icons-left li {
+    font-size: 14px;
+    color: #6d6e70;
+    font-family: "Poppins";
+    margin-top: 5%;
+}
+
+i {
+    color: rgba(134, 228, 10, 0.9);
+}
+i.bi-arrow-right{
+    color: #000;
+}
+
+.header-section .top-nav .col-lg-2 img {
+    width: 50px;
+    position: absolute;
+
+}
+.nav-link{
+    display: block;
+    padding: 1.5rem;
+}
+
+.btn-group button {
+    background-image: linear-gradient(90deg,
+            #a5cd39 0%,
+            #cce867 100%);
+    border-color: #a5cd39;
+    color: #000;
+    font-weight: 600;
+    /* padding: 10px 24px;
+    cursor: pointer;
+    float: left; */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+    border-radius: 25px 0px 0px 25px;
+
+}
+.sam {
+    border-radius: 0px 25px 25px 0px;
+
+}
+
+.header-section .menu-item{
+    background-color:  #fff;
+}
+
+.header-section .menu-item nav ul {
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    position: center;
+    
+}
+
+.header-section .menu-item nav ul li a{
+    color: #6d6e70;
+}
+
+
+
+.show_bx{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    max-width: 40%;
+}
+
+.carousel-inner {
+    border-radius: 10px;
+
+}
+.hotel-content {
+
+    border-radius: 0px 0px 30px 30px;
+    /* width: 570px;
+    height: 109px; */
+    /* border-radius: 37px; */
+    background-color: #f5f7f6;
+    display: flex;
+    padding: 20px;
+}
+.input-group-text {
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 50px 0px 0px 0px;
+}
+
+input[type=text] {
+    /* background-position: 10px 10px;
+    background-repeat: no-repeat; */
+    /* padding-left: 40px; */
+    border: none;
+    background: transparent;
+
+}
+
+
+input[type=search] {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    height: 100px;
+    border-radius: 50px 50px 0px 0px;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+::placeholder {
+    /* color: red;
+    font-size: 1.2em;
+    font-style: italic; */
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 900;
+   
+}
+label {
+    /* font-weight: 600; */
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+
+.submit {
+ 
+    margin-top: 15px;
+    /* height: 60px; */
+    border-radius: 34px;
+    /* color: #000; */
+    border-color: #a5cd39;
+    padding: 20px 20px;
+    background-image: linear-gradient(90deg,
+            #a5cd39 0%,
+            #cce867 100%);
+    width: 100%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+h1 {
+    margin-left: 50px;
+    font-size: 40px;
+    line-height: 60px;
+    color: #131a47;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.hotels .mini-title {
+    margin-left: 50px;
+    font-size: 22px;
+    color: #131a47;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+
+
+
+i.bi-star-fill {
+    color: #ffd304;
+    /* height: 2px; */
+    padding: 0px 0px 0px 5px;
+}
+
+
+span {
+    font-size: 10px;
+}
+
+.input-group-text {
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 50px 0px 0px 0px;
+}
+
+.hotel-content {
+
+    border-radius: 0px 0px 30px 30px;
+    /* width: 570px;
+    height: 109px; */
+    /* border-radius: 37px; */
+    background-color: #f5f7f6;
+    display: flex;
+    padding: 20px;
+}
+
+input[type=text] {
+    /* background-position: 10px 10px;
+    background-repeat: no-repeat; */
+    /* padding-left: 40px; */
+    border: none;
+    background: transparent;
+
+}
+
+
+input[type=search] {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    height: 100px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+label {
+    /* font-weight: 600; */
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+select {
+    border: none;
+}
+
+option {
+    font-size: 22px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.btn {
+
+    border-radius: 12px;
+    background-color: #131a47;
+    border-color: #131a47;
+    font-size: 15px;
+}
+
+.card-title-rigth {
+    position: absolute;
+    bottom: 10px;
+    padding: 0.5rem
+}
+
+
+.price1 p {
+    font-size: 10px;
+    margin-bottom: 0
+}
+
+.price {
+    font-weight: 600;
+    font-size: 20px
+}
+
+
+section {
+    padding: 3rem 0;
+}
+
+
+.btn-group:after {
+
+    clear: both;
+    display: table;
+
+}
+
+
+
+
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+
+.text-primary-btn {
+    border-radius: 50px 10px 10px 50px;
+    position: absolute;
+    left: auto;
+    right: 0;
+    padding: 10px;
+    background-image: linear-gradient(90deg,
+            #a5cd39 0%, #cce867 100%);
+}
+
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 1px;
+    border: 1px solid #f2f4ec;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #a5cd39;
+}
+
+
+
+.bi-caret-down-fill {
+    position: absolute;
+    top: 50px;
+    margin: 0;
+}
+
+h5 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Roboto";
+    /* margin-top: 50px; */
+}
+ 
+.card-text {
+    font-size: 17px;
+    line-height: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.item .card img {
+    width: 100%;
+    display: block;
+    height: 292px;
+    border-radius: 50px;
+    /* border-radius: 215px; */
+}
+
+.item .card {
+    border-radius: 215px;
+} 
+
